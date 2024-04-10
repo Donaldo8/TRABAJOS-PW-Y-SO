@@ -1,0 +1,31 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #021556;
+}
+
+.forgot-password {
+    color: #6c757d; /* Cambiar el color del enlace "Forgot password?" */
+}
+
+
+.iniciar-sesion {
+    
+    background-color: #0e3eb8; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 2% 40%; /* Espacio alrededor del texto */
+    text-align: center; /* Centrar el texto */
+    display: inline-block; /* Mostrar como bloque */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cursor apuntando */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+
+
+  body {
+    padding: 30px;
+  }
